@@ -1,0 +1,3 @@
+python -m src.infer_gsdiff_sd --config_file configs/gsdiff_sd15.yaml --tag gsdiff_gobj83k_sd15_image__render --rembg_and_center --triangle_cfg_scaling --output_video_type gif --guidance_scale 2 --image_path assets/cartoon_panda.jpeg --use_elevest --prompt a_cartoon_panda --save_ply
+
+# python -m src.infer_gsdiff_sd --config_file configs/gsdiff_sd15.yaml --tag gsdiff_gobj83k_sd15__render --prompt a_red_and_white_checkered_cloth --output_video_type gif --seed 0 --save_ply

@@ -1,0 +1,32 @@
+opt_type: "gsdiff_pas"
+
+optimizer:
+  name: "adamw"
+  lr: 0.0001
+  betas:
+    - 0.9
+    - 0.999
+  weight_decay: 0.01
+  eps: 1.e-8
+
+lr_scheduler:
+  name: "constant_warmup"
+  num_warmup_steps: 1000
+
+train:
+  batch_size_per_gpu: 8
+  epochs: 100
+  log_freq: 1
+  early_eval_freq: 100
+  eval_freq: 1000
+  save_freq: 2000
+  eval_freq_epoch: 5
+  save_freq_epoch: 10
+  ema_kwargs:
+    decay: 0.9999
+    use_ema_warmup: true
+    inv_gamma: 1.
+    power: 0.75
+
+val:
+  batch_size_per_gpu: 4

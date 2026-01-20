@@ -1,0 +1,52 @@
+{
+    "opacity_threshold": 0.02,
+    "rotation_degree": [],
+    "rotation_axis": [],
+    "substep_dt": 1e-4,
+    "frame_dt": 2e-2,
+    "frame_num": 1,
+    "E": {"ball":8e5,"bear":5e4,"bowl":1e7,"can":1e6,"cloth":3e3,"cloth2":3e3,"cloth3":3e3,"duck":3e5,"duck2":5e5,"miku":1e5,"panda":1e5,"phone":2e7,"pillow":1e4,"pillow2":1e4,"rope":5e3,"rope2":5e3,"soccer":3e6,"toy":1e5},
+    "nu": 0.3,
+    "rpic_damping": 0.9,
+    "n_grid": 200,
+    "grid_lim": 4,
+    "material": "jelly",
+    "density": {"ball":600,"bear":500,"bowl":800,"can":800,"cloth":100,"cloth2":100,"cloth3":100,"duck":300,"duck2":1200,"miku":400,"panda":700,"phone":2600,"pillow":500,"pillow2":500,"rope":500,"rope2":500,"soccer":2000,"toy":1000},
+    "g": [
+        0.0,
+        0,
+        0.0
+    ],
+    "sim_area": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+    ],
+    "boundary_conditions": [
+        {
+            "type": "bounding_box"
+        }
+    ],
+    "mpm_space_vertical_upward_axis": [
+        0,
+        0,
+        1
+    ],
+    "mpm_space_viewpoint_center": [
+        2.0,
+        2.0,
+        0.7
+    ],
+    "default_camera_index": -1,
+    "show_hint": false,
+    "init_azimuthm": 120.0,
+    "init_elevation": 30.0,
+    "init_radius": 4,
+    "move_camera": true,
+    "delta_a": 3.6,
+    "delta_e": 0.0,
+    "delta_r": 0.0
+}

@@ -1,0 +1,52 @@
+{
+    "opacity_threshold": 0.02,
+    "rotation_degree": [],
+    "rotation_axis": [],
+    "substep_dt": 1e-4,
+    "frame_dt": 2e-2,
+    "frame_num": 100,
+    "E": {"ball": 573343.6762052517, "bowl": 859029.798613998, "can": 19714313.877591252, "cloth": 2257.117510167872, "duck": 4828.292611846588, "miku": 2114.2744489634983, "panda": 2114.2744489634983, "phone": 20000000.0, "pillow": 2000.0, "rope": 573343.6762052517},
+    "nu": 0.3,
+    "rpic_damping": 0.9,
+    "n_grid": 200,
+    "grid_lim": 4,
+    "material": "jelly",
+    "density": {"ball": 1300, "bowl": 1200, "can": 1060, "cloth": 100, "duck": 1100, "miku": 150, "panda": 150, "phone": 2700, "pillow": 50, "rope": 1000},
+    "g": [
+        0.0,
+        0,
+        -5.0
+    ],
+    "sim_area": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+    ],
+    "boundary_conditions": [
+        {
+            "type": "bounding_box"
+        }
+    ],
+    "mpm_space_vertical_upward_axis": [
+        0,
+        0,
+        1
+    ],
+    "mpm_space_viewpoint_center": [
+        2.0,
+        2.0,
+        0.7
+    ],
+    "default_camera_index": -1,
+    "show_hint": false,
+    "init_azimuthm": 120.0,
+    "init_elevation": 20.0,
+    "init_radius": 4,
+    "move_camera": true,
+    "delta_a": 3.6,
+    "delta_e": 0.0,
+    "delta_r": 0.0
+}
