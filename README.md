@@ -8,6 +8,8 @@ git clone https://github.com/lishiqianhugh/NeuralGaussianForceField
 
 Run:
 ```bash
+conda create -n ngff python=3.10 -y
+conda activate ngff
 bash setup_env.sh
 ```
 
@@ -286,6 +288,7 @@ If you find our work helpful, please consider citing:
   title     = {Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields},
   author    = {Li, Shiqian and Shen, Ruihong and Ni, Junfeng and Pan, Chang and Zhang, Chi and Zhu, Yixin},
   year      = {2026},
+  booktitle = {ICLR},
   url       = {https://neuralgaussianforcefield.github.io/}
 }
 ```
