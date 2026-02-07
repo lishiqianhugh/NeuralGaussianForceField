@@ -1,4 +1,43 @@
-# Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields
+<h1 align="center"> Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields</h1>
+
+<h3 align="center">ICLR 2026</h3>
+
+<div align="center">
+    <p>
+        <a href="https://lishiqianhugh.github.io/">Shiqian Li</a><sup>1*</sup>&nbsp;&nbsp;
+        <a href="https://ruihong04.github.io/">Ruihong Shen</a><sup>1*</sup>&nbsp;&nbsp;
+        <a href="https://dali-jack.github.io/Junfeng-Ni/">Junfeng Ni</a><sup>2</sup>&nbsp;&nbsp;
+        <a href="https://pku.ai/author/chang-pan/">Chang Pan</a><sup>1</sup>&nbsp;&nbsp;
+        <a href="http://wellyzhang.github.io/">Chi Zhang</a><sup>1†</sup>&nbsp;&nbsp;
+        <a href="https://yzhu.io/">Yixin Zhu</a><sup>1†</sup>&nbsp;&nbsp;
+    </p>
+    <p>
+        <sup>1</sup>Peking University &nbsp;&nbsp;&nbsp;
+        <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
+    </p>
+    <p>
+        <sup>*</sup> Equal Contribution &nbsp;&nbsp;&nbsp;
+        <sup>†</sup> Corresponding Author
+    </p>
+</div>
+
+<p align="center">
+    <a href='https://neuralgaussianforcefield.github.io/' target="_blank">
+        <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=google-chrome&logoColor=white' alt='Project Page'>
+    </a>
+    <a href='https://arxiv.org/pdf/2602.00148' target="_blank">
+        <img src='https://img.shields.io/badge/Paper-Arxiv-B31B1B?style=plastic&logo=arxiv&logoColor=white' alt='Paper'>
+    </a>
+    <a href='https://huggingface.co/datasets/lishiqianhugh/GSCollision' target="_blank">
+        <img src='https://img.shields.io/badge/Dataset-Hugging_Face-yellow?style=plastic&logo=huggingface&logoColor=white' alt='Dataset'>
+    </a>
+    <a href='https://vimeo.com/1126658030' target="_blank">
+        <img src='https://img.shields.io/badge/Video-Vimeo-green?style=plastic&logo=vimeo&logoColor=white' alt='Video'>
+    </a>
+</p>
+
+<img src='./assets/overview.jpg'>
+
 ## 🔧 Setting up
 ### Clone the repo
 ```
@@ -272,6 +311,9 @@ Then, open your web browser and type the address `localhost:{local_port}`
 
 
 ## 😊 Acknowledgment
+
+This project extends our prior research on **[Neural Force Field](https://neuralforcefield.github.io/)**, which focuses on abstract physical reasoning.
+
 Our codebase is built upon many fantastic projects. We thank the following project authors for generously open-sourcing their code:
 - [PhysGaussian](https://github.com/XPandora/PhysGaussian)
 - [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork)
